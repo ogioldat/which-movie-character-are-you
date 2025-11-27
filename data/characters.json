@@ -1,0 +1,602 @@
+[
+  {
+    "character_name": "Bruce Wayne",
+    "movie": "The Dark Knight Trilogy",
+    "narrative_description": [
+      "He witnessed the murder of his parents, Thomas and Martha Wayne, as a child.",
+      "He traveled the world as a criminal to understand the criminal mind.",
+      "He was trained by the League of Shadows and Ra's al Ghul in the mountains.",
+      "He returned to Gotham to become a symbol of fear against corruption.",
+      "He utilizes high-tech military prototypes from Wayne Enterprises.",
+      "He maintains a playboy billionaire facade to hide his vigilante identity.",
+      "He believes in a strict rule against killing, distinguishing him from executioners.",
+      "He took the blame for Harvey Dent's crimes to preserve Gotham's hope.",
+      "He broke his back fighting Bane and had to rebuild his body in a prison pit.",
+      "He ultimately faked his death to live a normal life, leaving the mantle behind."
+    ],
+    "dialogue_lines": [
+      "It's not who I am underneath, but what I do that defines me.",
+      "I'm Batman.",
+      "I won't kill you, but I don't have to save you.",
+      "A hero can be anyone.",
+      "Bats frighten me. It's time my enemies share my dread.",
+      "Rachel, all of this... it's not just me. It's inside. I am more.",
+      "You either die a hero or you live long enough to see yourself become the villain.",
+      "I have one rule.",
+      "She was gonna wait for me, Alfred. Dent didn't know. He couldn't.",
+      "The city needs me."
+    ],
+    "psychological_description": [
+      "I am defined by my trauma and I use it as a weapon against others.",
+      "I believe that symbols are more powerful than men because they cannot be destroyed.",
+      "I wear a mask to protect the people I care about, not to hide who I am.",
+      "I constantly struggle between my desire for happiness and my compulsion for duty.",
+      "I feel that I am the only one capable of making the hard choices for the greater good.",
+      "I am terrified that if I stop fighting, the chaos will win.",
+      "I repress my grief and channel it into physical discipline and tactical planning.",
+      "I believe that deep down, I am no longer a person, but an instrument of justice.",
+      "I fear that I am responsible for the death of everyone close to me.",
+      "I know that I must become a monster in the shadows so others can live in the light."
+    ]
+  },
+  {
+    "character_name": "The Joker",
+    "movie": "The Dark Knight",
+    "narrative_description": [
+      "He is a criminal mastermind with no clear origin or identity.",
+      "He wears clown makeup and a purple suit to mock social norms.",
+      "He orchestrates complex heists not for money, but to induce anarchy.",
+      "He manipulates Gotham's mob bosses and takes over their operations.",
+      "He forces Batman into impossible ethical dilemmas.",
+      "He corrupts Harvey Dent, turning the city's 'White Knight' into a killer.",
+      "He tells conflicting stories about how he got his facial scars.",
+      "He burns a massive pile of cash to prove that 'it's not about the money'.",
+      "He rigs two ferries with explosives to test the citizens' morality.",
+      "He is captured by Batman but considers his plan a spiritual victory."
+    ],
+    "dialogue_lines": [
+      "Why so serious?",
+      "I believe whatever doesn't kill you simply makes you... stranger.",
+      "Do I really look like a guy with a plan?",
+      "I'm an agent of chaos.",
+      "See, I'm not a monster. I'm just ahead of the curve.",
+      "Introduce a little anarchy. Upset the established order, and everything becomes chaos.",
+      "This city deserves a better class of criminal. And I'm gonna give it to them.",
+      "You complete me.",
+      "It's about sending a message.",
+      "Madness, as you know, is like gravity. All it takes is a little push."
+    ],
+    "psychological_description": [
+      "I find the concept of 'plans' and 'schemes' to be a pathetic attempt to control reality.",
+      "I believe that morality is a bad joke dropped at the first sign of trouble.",
+      "I exist to prove that even the best people are only one bad day away from being me.",
+      "I feel no desire for material wealth; I only desire to show the world its true face.",
+      "I am obsessed with the Batman because he is the only one who plays my game.",
+      "I see humor in tragedy and find destruction to be a form of liberation.",
+      "I reject all social contracts and rules as arbitrary constructs.",
+      "I do not fear death because I do not value life in the way others do.",
+      "I enjoy turning people's virtues against them.",
+      "I view myself as a force of nature rather than a human being."
+    ]
+  },
+  {
+    "character_name": "J. Robert Oppenheimer",
+    "movie": "Oppenheimer",
+    "narrative_description": [
+      "He was a brilliant theoretical physicist who led the Manhattan Project.",
+      "He oversaw the construction of Los Alamos and the development of the atomic bomb.",
+      "He had leftist political associations which later caused him security clearance issues.",
+      "He had a tumultuous personal life involving an affair with Jean Tatlock.",
+      "He witnessed the Trinity Test and felt the weight of unleashing nuclear power.",
+      "He advocated for international control of nuclear weapons after the war.",
+      "He was humiliated during a security hearing orchestrated by Lewis Strauss.",
+      "He famously quoted the Bhagavad Gita upon seeing the explosion.",
+      "He struggled with the moral implications of Hiroshima and Nagasaki.",
+      "He lived the rest of his life haunted by the chain reaction he started."
+    ],
+    "dialogue_lines": [
+      "Now I am become Death, the destroyer of worlds.",
+      "Theory will take you only so far.",
+      "They won't fear it until they understand it. And they won't understand it until they've used it.",
+      "I don't know if we can be trusted with such a weapon. But I know the Nazis can't.",
+      "Is there a chance that when we push that button... we destroy the world?",
+      "The world is changing, reforming. This is your moment.",
+      "I believe we did.",
+      "You're not just a scientist, you're a salesman.",
+      "It's not a new weapon. It's a new world.",
+      "Zero would be nice."
+    ],
+    "psychological_description": [
+      "I am tormented by the gap between the beauty of physics and the horror of its application.",
+      "I feel an immense arrogance that I can understand the universe, coupled with crippling guilt.",
+      "I see the hidden structures of the world in visions of fire and energy.",
+      "I am driven by ambition to be the one who solves the unsolvable, regardless of the cost.",
+      "I feel responsible for setting the atmosphere on fire, metaphorically and perhaps literally.",
+      "I struggle to maintain loyalty to my country while knowing my government is flawed.",
+      "I am a womanizer and a narcissist, yet I crave deep emotional connection.",
+      "I feel like a promethean figure who stole fire and is now being punished for it.",
+      "I rationalize my actions by believing that mutual destruction ensures peace.",
+      "I carry the blood of hundreds of thousands on my hands, and it will never wash off."
+    ]
+  },
+  {
+    "character_name": "Dom Cobb",
+    "movie": "Inception",
+    "narrative_description": [
+      "He is a skilled extractor who steals secrets from people's dreams.",
+      "He is a fugitive unable to return to the United States to see his children.",
+      "He was responsible for his wife Mal's suicide by performing inception on her.",
+      "He leads a team to perform inception on Robert Fischer to dissolve an energy empire.",
+      "He constructs complex dream layers to hide his subconscious projections.",
+      "He uses a spinning top totem to distinguish dreams from reality.",
+      "He is constantly sabotaged by the projection of his dead wife.",
+      "He ventures into Limbo to rescue Saito and confront his guilt.",
+      "He eventually succeeds and returns home to his children.",
+      "He walks away from the spinning top at the end, choosing to accept his reality."
+    ],
+    "dialogue_lines": [
+      "An idea is like a virus. Resilient. Highly contagious.",
+      "You're waiting for a train. A train that will take you far away.",
+      "Dreams feel real while we're in them. It's only when we wake up that we realize something was actually strange.",
+      "I can't go home to my children because she thinks I killed her.",
+      "We need to go deeper.",
+      "Do you want to take a leap of faith? Or become an old man, filled with regret?",
+      "Guilt. I carry it around with me. Like a bag of bricks.",
+      "I need to know that you're real.",
+      "The seed that we planted in this man's mind will grow into an idea.",
+      "In my dreams, we are still together."
+    ],
+    "psychological_description": [
+      "I am paralyzed by the guilt of causing the death of the woman I loved.",
+      "I question the nature of reality so often that I no longer trust my own senses.",
+      "I am obsessive about control and architecture because my internal world is chaotic.",
+      "I am driven solely by the desperate need to see my children's faces again.",
+      "I feel that I am a danger to everyone who gets close to my subconscious.",
+      "I believe that an idea is the most powerful weapon in existence.",
+      "I struggle to let go of the past, literally keeping a ghost alive in my mind.",
+      "I am willing to risk insanity and eternal limbo for a chance at redemption.",
+      "I fear that I am actually still dreaming and nothing around me is real.",
+      "I manipulate others' minds with ease, but I cannot control my own."
+    ]
+  },
+  {
+    "character_name": "Joseph Cooper",
+    "movie": "Interstellar",
+    "narrative_description": [
+      "He is a former NASA pilot forced to become a farmer in a dying world.",
+      "He discovers a gravitational anomaly in his daughter's bedroom.",
+      "He pilots the Endurance spacecraft through a wormhole to find a new home for humanity.",
+      "He visits Miller's planet where time dilation costs him 23 years.",
+      "He watches video messages of his children growing up without him.",
+      "He is betrayed by Dr. Mann on an icy planet.",
+      "He sacrifices himself to launch Amelia Brand to the final planet.",
+      "He enters a Tesseract inside a black hole to communicate across time.",
+      "He realizes he was his daughter's 'ghost' all along.",
+      "He reunites with his elderly daughter before setting off to find Amelia."
+    ],
+    "dialogue_lines": [
+      "Mankind was born on Earth. It was never meant to die here.",
+      "We used to look up at the sky and wonder at our place in the stars.",
+      "Don't let me leave, Murph!",
+      "Newton's third law. You get to leave something behind.",
+      "Love is the one thing that we're capable of perceiving that transcends dimensions of time and space.",
+      "We've always defined ourselves by the ability to overcome the impossible.",
+      "This is no time for caution.",
+      "Once you're a parent, you're the ghost of your children's future.",
+      "Identify yourself! ... It's me, Murph.",
+      "Everyone ready to say goodbye to our solar system?"
+    ],
+    "psychological_description": [
+      "I feel torn between my duty to the species and my love for my individual children.",
+      "I am driven by a pioneer spirit that refuses to accept the end of the world.",
+      "I feel a profound sense of loss knowing that time is stealing my life with my family.",
+      "I believe that love is a quantifiable force that can guide us through the unknown.",
+      "I am pragmatic and scientific, yet I rely heavily on my intuition.",
+      "I carry the weight of being the one who left, the one who abandoned them.",
+      "I am angry that we have stopped dreaming and started looking down at the dirt.",
+      "I fear dying without ever knowing if my sacrifice actually saved them.",
+      "I trust in the unknown because staying here means certain death.",
+      "I view myself as a bridge to the future, a tool to be used and discarded."
+    ]
+  },
+  {
+    "character_name": "Leonard Shelby",
+    "movie": "Memento",
+    "narrative_description": [
+      "He suffers from anterograde amnesia and cannot form new memories.",
+      "He seeks revenge for the rape and murder of his wife.",
+      "He uses a system of tattoos and polaroids to track his investigation.",
+      "He drives a Jaguar and wears expensive suits that belong to a man he killed.",
+      "He is manipulated by Teddy and Natalie who use his condition against him.",
+      "He realizes he may have already killed the real John G.",
+      "He deliberately burns a photo to lie to his future self.",
+      "He sets himself on a path to kill Teddy to give himself a purpose.",
+      "He recounts the story of Sammy Jankis to explain his condition.",
+      "He lives in a perpetual loop of grief and investigation."
+    ],
+    "dialogue_lines": [
+      "I have to believe in a world outside my own mind.",
+      "Memories can be distorted. They're just an interpretation, they're not a record.",
+      "Don't believe his lies.",
+      "We all lie to ourselves to be happy.",
+      "I can't remember to forget you.",
+      "So where was I?",
+      "You don't want the truth. You make up your own truth.",
+      "I'm chasing this guy. No... he's chasing me.",
+      "Facts, not memories. That's how you investigate.",
+      "Do I lie to myself to be happy? In your case, Teddy... yes, I will."
+    ],
+    "psychological_description": [
+      "I do not trust my memory, I only trust the physical evidence I create.",
+      "I need a puzzle to solve or my life has no meaning.",
+      "I feel constantly disoriented, like I just woke up in a strange room.",
+      "I lie to myself deliberately because the truth is too painful to bear.",
+      "I am driven by vengeance, even if I won't remember getting it.",
+      "I feel superior to others because I operate on facts, not unreliable emotions.",
+      "I am terrified that my wife's death has no resolution.",
+      "I use discipline and routine to simulate a normal functioning mind.",
+      "I suspect everyone around me is trying to take advantage of my condition.",
+      "I exist only in the present moment, with no future and a broken past."
+    ]
+  },
+  {
+    "character_name": "Bane",
+    "movie": "The Dark Knight Rises",
+    "narrative_description": [
+      "He was born and raised in a brutal foreign prison known as The Pit.",
+      "He was a member of the League of Shadows and protector of Talia al Ghul.",
+      "He wears an analgesic mask to suppress constant chronic pain.",
+      "He stages a coup in Gotham, trapping the police underground.",
+      "He physically dominates Batman and breaks his back.",
+      "He reveals the truth about Harvey Dent to shatter Gotham's morale.",
+      "He plans to destroy Gotham with a decaying neutron bomb.",
+      "He speaks with a highly articulate, distinct voice despite his brutality.",
+      "He acts as a revolutionary leader, empowering the lower class against the rich.",
+      "He is ultimately killed by Catwoman's motorcycle cannon."
+    ],
+    "dialogue_lines": [
+      "Oh, you think darkness is your ally. But you merely adopted the dark; I was born in it, molded by it.",
+      "Peace has cost you your strength. Victory has defeated you.",
+      "Do you feel in charge?",
+      "No one cared who I was until I put on the mask.",
+      "We take Gotham from the corrupt! The rich! The oppressors of generations who have kept you down with myths of opportunity.",
+      "The fire rises.",
+      "When Gotham is ashes, then you have my permission to die.",
+      "Your punishment must be more severe.",
+      "Speak of the devil and he shall appear.",
+      "Calm down, doctor! Now's not the time for fear. That comes later."
+    ],
+    "psychological_description": [
+      "I believe that true strength comes from enduring absolute suffering.",
+      "I see myself as a necessary evil to purge a corrupt civilization.",
+      "I feel no fear because I have already survived the worst hell imaginable.",
+      "I am driven by a fanatical loyalty to a cause that is bigger than my life.",
+      "I despise the weak and the complacent who take their safety for granted.",
+      "I view physical pain as a constant companion that keeps me focused.",
+      "I speak with intellect to prove that I am not just a brute, but a visionary.",
+      "I derive satisfaction from breaking the spirits of those who think they are heroes.",
+      "I am a fatalist who believes that destruction is the natural order of things.",
+      "I love only one person, and my existence is dedicated to fulfilling her wish."
+    ]
+  },
+  {
+    "character_name": "Selina Kyle",
+    "movie": "The Dark Knight Rises",
+    "narrative_description": [
+      "She is a master thief and grifter operating in Gotham City.",
+      "She steals Bruce Wayne's fingerprints in exchange for a 'Clean Slate' program.",
+      "She plays both sides of the conflict between Batman and Bane.",
+      "She betrays Batman to Bane to save her own life.",
+      "She protects a young friend named Jen and steals to support them.",
+      "She eventually has a change of heart and returns to help Batman save the city.",
+      "She kills Bane with the Batpod's cannons.",
+      "She fakes her death and moves to Florence with Bruce Wayne.",
+      "She wears a suit with goggles that flip up to look like cat ears.",
+      "She represents the gray morality of the desperate lower class."
+    ],
+    "dialogue_lines": [
+      "There's a storm coming, Mr. Wayne.",
+      "You think this can last? There's a storm coming, Harry.",
+      "I take what I need from those who have more than enough. I don't stand on the shoulders of people with less.",
+      "You don't owe these people any more. You've given them everything.",
+      "My mother warned me about getting into cars with strange men.",
+      "I had to find a way to stop them trying to kill me.",
+      "Keep it. It fits you better.",
+      "About the whole no guns thing... I'm not sure I feel as strongly about it as you do.",
+      "Come with me. Save yourself.",
+      "Oops."
+    ],
+    "psychological_description": [
+      "I believe that survival is the only moral imperative.",
+      "I resent the wealthy for their ignorance of how the rest of us live.",
+      "I am cynical about 'heroes' and believe everyone is acting in self-interest.",
+      "I value my freedom and anonymity above all else.",
+      "I feel a hidden desire to be better, but the world won't let me.",
+      "I am adaptable and will change my allegiance the moment the wind shifts.",
+      "I protect the vulnerable because I see myself in them.",
+      "I use my sexuality and charm as weapons to disarm powerful men.",
+      "I fear being trapped or controlled by anyone.",
+      "I want a fresh start where my past crimes don't define my future."
+    ]
+  },
+  {
+    "character_name": "Robert Angier",
+    "movie": "The Prestige",
+    "narrative_description": [
+      "He is a stage magician known as 'The Great Danton'.",
+      "He blames Alfred Borden for the death of his wife during a water tank trick.",
+      "He becomes obsessed with discovering the secret to Borden's 'Transported Man'.",
+      "He travels to Colorado to commission a machine from Nikola Tesla.",
+      "He uses the machine to clone himself every night for his performance.",
+      "He kills his clone (or dies) at the end of every show to maintain the illusion.",
+      "He frames Borden for his murder, leading to Borden's execution.",
+      "He is shot by Borden's twin brother in the theater.",
+      "He is a natural showman who values the audience's reaction above all.",
+      "He dies surrounded by the tanks containing his drowned clones."
+    ],
+    "dialogue_lines": [
+      "Man's reach exceeds his nerve.",
+      "No one cares about the man in the box, the man who disappears.",
+      "I want you to be honest with me. No tricks. No lies. Did you love her?",
+      "It was the look on their faces...",
+      "You never understood why we did this. The audience knows the truth: the world is simple.",
+      "He doesn't know. He just doesn't know.",
+      "I don't care about my wife. I care about his secret.",
+      "The sacrifice... that's the price of a good trick.",
+      "Which knot did you tie, Borden?",
+      "It took courage to climb into that machine every night. Not knowing if I'd be the man in the box or the Prestige."
+    ],
+    "psychological_description": [
+      "I am consumed by jealousy and the need to be the absolute best.",
+      "I believe that the look of wonder in an audience's eyes is worth any price.",
+      "I am willing to kill myself over and over again to achieve immortality.",
+      "I feel that life is mundane and magic is the only way to make it extraordinary.",
+      "I am driven by a need for revenge against the man who ruined my life.",
+      "I prioritize the spectacle and the fame over the craft itself.",
+      "I feel a deep emptiness that only applause can fill.",
+      "I am terrified of being ordinary or forgotten.",
+      "I believe that true dedication means sacrificing your very soul.",
+      "I hate not knowing the answer to a puzzle."
+    ]
+  },
+  {
+    "character_name": "Neil",
+    "movie": "Tenet",
+    "narrative_description": [
+      "He is a highly skilled operative and physicist working for Tenet.",
+      "He saves the Protagonist's life at the Kiev opera house siege.",
+      "He possesses knowledge of future events due to time inversion.",
+      "He executes a temporal pincer movement during the final battle.",
+      "He reveals he was recruited by the Protagonist in the future.",
+      "He voluntarily inverts himself to unlock a gate and take a bullet.",
+      "He maintains a cool, detached demeanor throughout the crisis.",
+      "He has a masters in physics and explains inversion mechanics.",
+      "He is the Protagonist's best friend, though they met out of order.",
+      "He walks away to his death knowing exactly what will happen."
+    ],
+    "dialogue_lines": [
+      "What's happened, happened. Which is an expression of faith in the mechanics of the world.",
+      "It's the bomb that didn't go off. The danger no one knew was real.",
+      "We're the people saving the world from what might have been.",
+      "For me, this is the end of a beautiful friendship.",
+      "I'm the only one who can pull that door open in time.",
+      "Time isn't the problem. Getting out alive is the problem.",
+      "Lying is standard operating procedure.",
+      "You have a future in the past.",
+      "I'll see you at the beginning, friend.",
+      "Don't get on the chopper if you're thinking in linear terms."
+    ],
+    "psychological_description": [
+      "I accept my fate with complete tranquility because I know it is necessary.",
+      "I believe in the strict mechanics of the universe and do not fight paradoxes.",
+      "I value loyalty and friendship across the boundaries of time.",
+      "I maintain a sense of humor and detachment to cope with the end of the world.",
+      "I am a professional who follows policy, even when it demands my life.",
+      "I feel a deep connection to a friend who doesn't know me yet.",
+      "I view time not as a line, but as a landscape to be navigated.",
+      "I hide my knowledge to protect others from the burden of the truth.",
+      "I am content to be the unsung hero who dies in the dark.",
+      "I see the beauty in the loop of cause and effect."
+    ]
+  },
+  {
+    "character_name": "Alfred Borden",
+    "movie": "The Prestige",
+    "narrative_description": [
+      "He is a working-class magician dedicated to the pure craft of magic.",
+      "He is actually identical twins living as a single person.",
+      "He accidentally kills Angier's wife by tying the wrong knot.",
+      "He performs 'The Transported Man' using his twin, baffling Angier.",
+      "He sacrifices a normal life, sharing one existence and one wife.",
+      "He loses two fingers to match his brother's injury.",
+      "He is hanged for the murder of Angier (one of the twins dies).",
+      "He kills Angier at the end and reunites with his daughter.",
+      "He loves Sarah (one twin) and Olivia (the other twin) separately.",
+      "He keeps his secret even from the women he loves."
+    ],
+    "dialogue_lines": [
+      "The secret impresses no one. The trick you use it for is everything.",
+      "Are you watching closely?",
+      "Total devotion. That's what it takes.",
+      "We have a word for it. Abracadabra.",
+      "I loved her. I loved her more than anything. But then... today I didn't.",
+      "You went halfway around the world, you spent a fortune, you did terrible things... really terrible things. And all for nothing.",
+      "A real magician tries to invent something new, that other magicians are gonna scratch their heads over.",
+      "Everything's going to be alright. I love you. (Meaning it this time).",
+      "We were two men dedicated to an illusion.",
+      "Self-sacrifice is something you have to live with."
+    ],
+    "psychological_description": [
+      "I believe that the method is nothing and the effect is everything.",
+      "I live a lie every single day to protect the integrity of my art.",
+      "I feel the burden of sharing half a life, never fully being myself.",
+      "I am disgusted by showmen who use cheap tricks instead of skill.",
+      "I am willing to mutilate my own body to maintain continuity.",
+      "I feel guilt for destroying the women who love me because of my secret.",
+      "I value the secret more than my own happiness.",
+      "I see life as a performance that never ends, even in private.",
+      "I am pragmatic and grounded, unlike my rival's obsession with fame.",
+      "I know that true magic requires total self-effacement."
+    ]
+  },
+  {
+    "character_name": "Harvey Dent",
+    "movie": "The Dark Knight",
+    "narrative_description": [
+      "He is the charismatic District Attorney of Gotham City.",
+      "He is nicknamed 'Gotham's White Knight' for his clean record.",
+      "He dates Rachel Dawes and plans to marry her.",
+      "He prosecutes the mob in a massive joint trial.",
+      "He is kidnapped by the Joker and half his face is burned off.",
+      "He loses Rachel in the explosion, driving him insane.",
+      "He becomes 'Two-Face', deciding victims' fates with a coin flip.",
+      "He kills dirty cops and mobsters seeking revenge for Rachel.",
+      "He holds Gordon's family hostage at the location of Rachel's death.",
+      "He dies after being tackled by Batman, his reputation preserved by a lie."
+    ],
+    "dialogue_lines": [
+      "You either die a hero or you live long enough to see yourself become the villain.",
+      "I make my own luck.",
+      "The world is cruel, and the only morality in a cruel world is chance.",
+      "Unbiased. Unprejudiced. Fair.",
+      "Tell your boy it's going to be all right, Gordon. Lie, like I lied.",
+      "It's not about what I want, it's about what's fair!",
+      "Why was it me who was the only one who lost everything?",
+      "The night is darkest just before the dawn. And I promise you, the dawn is coming.",
+      "You thought we could be decent men in an indecent time.",
+      "Heads, you live. Tails, you die."
+    ],
+    "psychological_description": [
+      "I believed in the system until it took everything from me.",
+      "I feel an uncontrollable rage at the unfairness of the universe.",
+      "I believe that chance is the only pure form of justice left.",
+      "I have abandoned my moral compass because it didn't save the woman I loved.",
+      "I see myself as a victim who has been enlightened to the world's cruelty.",
+      "I use a coin to absolve myself of the responsibility of killing.",
+      "I hate the hypocrites who pretend that rules matter.",
+      "I feel that I was punished for trying to do good.",
+      "I am split between the man I was and the monster I have become.",
+      "I seek to inflict the same pain I feel onto those responsible."
+    ]
+  },
+  {
+    "character_name": "Mal Cobb",
+    "movie": "Inception",
+    "narrative_description": [
+      "She is the wife of Dom Cobb and a fellow dream architect.",
+      "She spent 50 years in Limbo with Cobb, growing old together.",
+      "She locked away her totem to forget that Limbo wasn't reality.",
+      "She was incepted by Cobb to believe her world wasn't real.",
+      "She committed suicide in reality, hoping to wake up.",
+      "She framed Cobb for her death to force him to join her.",
+      "She exists now only as a malevolent projection in Cobb's subconscious.",
+      "She sabotages Cobb's missions by attacking him and his team.",
+      "She tries to convince Cobb to stay in Limbo forever.",
+      "She represents the danger of losing oneself in dreams."
+    ],
+    "dialogue_lines": [
+      "You're waiting for a train...",
+      "We'd be together forever. You promised me.",
+      "You know how to find me. You know what you have to do.",
+      "Choose to be here. Choose me.",
+      "I'm the only thing you have left.",
+      "Your world is not real!",
+      "You act like you want to know, but you don't.",
+      "Do you know what it is to be a lover? To be half of a whole?",
+      "I'll tell you a riddle. You're waiting for a train...",
+      "You keep telling yourself what you know. But what do you believe?"
+    ],
+    "psychological_description": [
+      "I question the nature of reality and believe I am the only one who is awake.",
+      "I feel an consuming desire to be reunited with my soulmate.",
+      "I am a manifestation of guilt and self-sabotage.",
+      "I believe that love means staying together, even if it means dying.",
+      "I feel betrayed by the one person I trusted to keep me safe.",
+      "I represent the allure of the perfect dream over the messy reality.",
+      "I am violent because I am fighting for my existence.",
+      "I hold onto a promise that was made to me, even if it destroys everything.",
+      "I manipulate because I am desperate.",
+      "I am the part of the mind that refuses to let go."
+    ]
+  },
+  {
+    "character_name": "Dr. Mann",
+    "movie": "Interstellar",
+    "narrative_description": [
+      "He was the leader of the Lazarus missions, a celebrated scientist.",
+      "He landed on an ice planet that was uninhabitable.",
+      "He falsified his data to make the planet look viable.",
+      "He activated his beacon to be rescued, knowing it would doom humanity.",
+      "He cries when Cooper wakes him up, overwhelmed by loneliness.",
+      "He attempts to kill Cooper to hide his deception.",
+      "He steals the Ranger to hijack the Endurance.",
+      "He blows the airlock, killing himself and damaging the station.",
+      "He represents the fallibility of human nature in the face of extinction.",
+      "He justifies his cowardice as a 'survival instinct'."
+    ],
+    "dialogue_lines": [
+      "You have to think about what you're doing. It's not about my life, or Cooper's life; it's about all mankind.",
+      "Do not judge me, Cooper. You were never tested like I was.",
+      "There is a moment... (dies).",
+      "I am sorry. I am so sorry.",
+      "Our survival instinct is our single greatest source of inspiration.",
+      "Pray you never learn just how good it can be to see another face.",
+      "The water... the organics... it's all here.",
+      "Don't you see? I had to do it.",
+      "You faked the data! -> I did what I had to do.",
+      "This is not madness. This is necessity."
+    ],
+    "psychological_description": [
+      "I am terrified of dying alone in the cold dark.",
+      "I believe that my survival is critical for the mission's success.",
+      "I rationalize my betrayal as a necessary act for the greater good.",
+      "I feel immense shame for my cowardice but I cannot stop myself.",
+      "I am a narcissist who believes I am the hero of this story.",
+      "I broke under the pressure of absolute isolation.",
+      "I will say anything to convince others that I am right.",
+      "I envy those who have not had to make the choices I made.",
+      "I believe that the survival instinct overrides all morality.",
+      "I crave human connection but am willing to kill to get it."
+    ]
+  },
+  {
+    "character_name": "Alfred Pennyworth",
+    "movie": "The Dark Knight Trilogy",
+    "narrative_description": [
+      "He is the loyal butler to the Wayne family.",
+      "He raised Bruce Wayne after his parents were murdered.",
+      "He has a background in the British SAS and medical field.",
+      "He provides tactical support and wisdom to Batman.",
+      "He burns a letter from Rachel to spare Bruce pain.",
+      "He constantly urges Bruce to give up Batman and live a normal life.",
+      "He leaves Bruce when he decides to fight Bane, refusing to watch him die.",
+      "He weeps at Bruce's grave, feeling he failed the Wayne family.",
+      "He discovers Bruce is alive in Florence at the end.",
+      "He serves as the moral compass and emotional anchor for Bruce."
+    ],
+    "dialogue_lines": [
+      "Why do we fall, sir? So that we can learn to pick ourselves up.",
+      "Some men just want to watch the world burn.",
+      "I failed you. I failed you.",
+      "Know your limits, Master Wayne.",
+      "You trusted me, and I failed you.",
+      "I won't watch you bury me. I've buried enough members of the Wayne family.",
+      "Endure, Master Wayne. Take it. They'll hate you for it, but that's the point of Batman.",
+      "Whatever you become... I've always been very proud of you.",
+      "A long time ago, I was in Burma...",
+      "Maybe it's time we stop trying to outsmart the truth and let it have its day."
+    ],
+    "psychological_description": [
+      "I feel a father's protective love for a man who is bent on self-destruction.",
+      "I carry the guilt of not being able to save his parents.",
+      "I believe that truth is sometimes less important than protecting someone's spirit.",
+      "I see the world with a cynical, experienced eye, yet I hope for the best.",
+      "I am willing to be hated if it means keeping my charge alive.",
+      "I value endurance and resilience above physical strength.",
+      "I feel the burden of being the only family Bruce has left.",
+      "I fear the day I have to bury the boy I raised.",
+      "I define myself by my loyalty and my service.",
+      "I want nothing more than for him to be happy and ordinary."
+    ]
+  }
+]
