@@ -1,0 +1,166 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "You find a wallet on the street with a large amount of money. What do you do?",
+      "answers": [
+        {
+          "text": "I return it to the authorities; rules matter.",
+          "photo": "return_wallet.jpg",
+          "properties": {
+            "alignment": "Good",
+            "moralFlexibility": 2,
+            "loyalty": 8
+          }
+        },
+        {
+          "text": "I keep it if no one sees me.",
+          "photo": "keep_wallet.jpg",
+          "properties": {
+            "alignment": "Neutral",
+            "moralFlexibility": 8,
+            "loyalty": 4
+          }
+        },
+        {
+          "text": "I use it to help others in need.",
+          "photo": "donate_wallet.jpg",
+          "properties": {
+            "alignment": "Good",
+            "moralFlexibility": 3,
+            "loyalty": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "You are in a high-stakes situation where a team depends on you to make a critical choice. How do you react?",
+      "answers": [
+        {
+          "text": "I think strategically and plan every step.",
+          "photo": "strategic_plan.jpg",
+          "properties": {
+            "riskTaking": 4,
+            "emotionalStability": 9,
+            "courage": 8
+          }
+        },
+        {
+          "text": "I act instinctively, trusting my gut.",
+          "photo": "instinct_action.jpg",
+          "properties": {
+            "riskTaking": 9,
+            "emotionalStability": 6,
+            "courage": 9
+          }
+        },
+        {
+          "text": "I freeze or avoid taking responsibility.",
+          "photo": "freeze.jpg",
+          "properties": {
+            "riskTaking": 2,
+            "emotionalStability": 3,
+            "courage": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "You have the chance to lead a major mission. What is your main goal?",
+      "answers": [
+        {
+          "text": "I want to be recognized as the best.",
+          "photo": "trophy.jpg",
+          "properties": {
+            "motivation": "Ambition",
+            "alignment": "Neutral"
+          }
+        },
+        {
+          "text": "I want to do what is right for others.",
+          "photo": "justice_scales.jpg",
+          "properties": {
+            "motivation": "Justice",
+            "alignment": "Good"
+          }
+        },
+        {
+          "text": "I want personal gain and power.",
+          "photo": "money_bag.jpg",
+          "properties": {
+            "motivation": "Power",
+            "alignment": "Evil"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Someone challenges you directly in public. How do you respond?",
+      "answers": [
+        {
+          "text": "I stay calm and assert control.",
+          "photo": "calm_control.jpg",
+          "properties": {
+            "riskTaking": 6,
+            "courage": 8,
+            "emotionalStability": 9
+          }
+        },
+        {
+          "text": "I retaliate aggressively.",
+          "photo": "aggressive.jpg",
+          "properties": {
+            "riskTaking": 9,
+            "courage": 9,
+            "emotionalStability": 5
+          }
+        },
+        {
+          "text": "I avoid confrontation whenever possible.",
+          "photo": "walk_away.jpg",
+          "properties": {
+            "riskTaking": 2,
+            "courage": 3,
+            "emotionalStability": 6
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "You have a secret identity. How do you interact with people in public?",
+      "answers": [
+        {
+          "text": "I keep a careful facade.",
+          "photo": "disguise.jpg",
+          "properties": {
+            "alignment": "Neutral",
+            "moralFlexibility": 7,
+            "charisma": 8
+          }
+        },
+        {
+          "text": "I act normal, no one suspects.",
+          "photo": "blend_in.jpg",
+          "properties": {
+            "alignment": "Good",
+            "moralFlexibility": 3,
+            "charisma": 6
+          }
+        },
+        {
+          "text": "I don’t hide anything, I’m honest.",
+          "photo": "open_identity.jpg",
+          "properties": {
+            "alignment": "Good",
+            "moralFlexibility": 2,
+            "charisma": 5
+          }
+        }
+      ]
+    }
+  ]
+}
