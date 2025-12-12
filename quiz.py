@@ -1,7 +1,13 @@
+import dataclasses
 import json
+import math
 import statistics
 import sys
 from collections import Counter, defaultdict
+from pathlib import Path
+from typing import Dict, List, Sequence, Tuple
+
+from quiz.graph import Character, load_characters
 
 def load_questions():
     with open("questions.json", "r", encoding="utf-8") as f:
@@ -39,6 +45,14 @@ PRIORITY_MAPS = {
     "alignment": {"Good": 3, "Neutral": 2, "Evil": 1},
 }
 
+CHARACTER_DATA_PATH = Path("data/characters.json")
+
+# Mapping categorical signals from the quiz to the numeric [-10, 10] space.
+CATEGORICAL_TO_NUMERIC = {
+    "alignment": {"Good": 10.0, "Neutral": 0.0, "Evil": -10.0},
+    "motivation": {"Justice": 10.0, "Ambition": 4.0, "Power": -8.0},
+}
+
 
 def aggregate_properties(props_acc):
     result = {}
@@ -68,6 +82,61 @@ def aggregate_properties(props_acc):
                 # fallback: pick the first candidate encountered (stable)
                 result[key] = candidates[0]
     return result
+
+
+def _normalize_numeric_value(value: float) -> float:
+    """Map quiz inputs (typically 0-10) onto the -10..10 trait space."""
+    if 0 <= value <= 10:
+        return (value - 5) * 2
+    return float(value)
+
+
+def normalize_user_traits(aggregated: Dict[str, float]) -> Dict[str, float]:
+    normalized = {}
+    for key, value in aggregated.items():
+        numeric_value = None
+        if isinstance(value, (int, float)):
+            numeric_value = _normalize_numeric_value(value)
+        elif isinstance(value, str):
+            mapping = CATEGORICAL_TO_NUMERIC.get(key, {})
+            numeric_value = mapping.get(value)
+        if numeric_value is not None:
+            normalized[key] = numeric_value
+    return normalized
+
+
+def cosine_similarity(user_vector: Dict[str, float], trait_vector: Dict[str, float]) -> float:
+    overlap = [k for k in user_vector.keys() if k in trait_vector]
+    if not overlap:
+        return 0.0
+    dot = sum(user_vector[k] * trait_vector[k] for k in overlap)
+    user_norm = math.sqrt(sum(user_vector[k] ** 2 for k in overlap))
+    trait_norm = math.sqrt(sum(trait_vector[k] ** 2 for k in overlap))
+    if user_norm == 0 or trait_norm == 0:
+        return 0.0
+    return dot / (user_norm * trait_norm)
+
+
+def rank_characters(
+    user_vector: Dict[str, float], characters: Sequence[Character], top_k: int = 3
+) -> List[Tuple[Character, float]]:
+    if not user_vector:
+        return []
+
+    scored = []
+    for char in characters:
+        traits = dataclasses.asdict(char.traits)
+        score = cosine_similarity(user_vector, traits)
+        scored.append((char, score))
+
+    scored.sort(key=lambda item: item[1], reverse=True)
+    return scored[:top_k]
+
+
+def load_character_profiles(path: Path = CHARACTER_DATA_PATH) -> List[Character]:
+    with path.open("r", encoding="utf-8") as fh:
+        data = json.load(fh)
+    return load_characters(data)
 
 
 def run_quiz(questions):
@@ -122,6 +191,17 @@ def main():
     print("Aggregated properties:")
     for k, v in result["aggregated_properties"].items():
         print(f"  {k}: {v}")
+
+    characters = load_character_profiles()
+    user_vector = normalize_user_traits(result["aggregated_properties"])
+    matches = rank_characters(user_vector, characters, top_k=3)
+    if not matches:
+        print("\nNot enough trait data to pick a character match.")
+        return
+
+    print("\nYour top Nolan character matches:")
+    for idx, (char, score) in enumerate(matches, start=1):
+        print(f"  {idx}. {char.character_name} ({char.movie}) — similarity {score:.2f}")
 
 
 if __name__ == "__main__":

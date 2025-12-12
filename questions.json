@@ -2,162 +2,201 @@
   "questions": [
     {
       "id": 1,
-      "text": "You find a wallet on the street with a large amount of money. What do you do?",
+      "text": "You find a wallet with enough money to radically change your life. Returning it means losing your only way out. What do you do?",
       "answers": [
         {
-          "text": "I return it to the authorities; rules matter.",
-          "photo": "return_wallet.jpg",
+          "text": "I return it. Some lines can’t be crossed.",
           "properties": {
-            "alignment": "Good",
-            "moralFlexibility": 2,
-            "loyalty": 8
+            "alignment": 2,
+            "moralFlexibility": 1,
+            "loyalty": 6,
+            "guilt": -6,
+            "logic_vs_emotion": -2
           }
         },
         {
-          "text": "I keep it if no one sees me.",
-          "photo": "keep_wallet.jpg",
+          "text": "I keep it. Survival comes first.",
           "properties": {
-            "alignment": "Neutral",
+            "alignment": -2,
             "moralFlexibility": 8,
-            "loyalty": 4
+            "loyalty": -4,
+            "guilt": 2,
+            "logic_vs_emotion": 6
           }
         },
         {
-          "text": "I use it to help others in need.",
-          "photo": "donate_wallet.jpg",
+          "text": "I use it to help others, even if it risks consequences.",
           "properties": {
-            "alignment": "Good",
-            "moralFlexibility": 3,
-            "loyalty": 7
+            "alignment": 2,
+            "moralFlexibility": 4,
+            "loyalty": 5,
+            "guilt": -4,
+            "logic_vs_emotion": -4
           }
         }
       ]
     },
     {
       "id": 2,
-      "text": "You are in a high-stakes situation where a team depends on you to make a critical choice. How do you react?",
+      "text": "Your team will act entirely on your decision. If you’re wrong, people will die. How do you decide?",
       "answers": [
         {
-          "text": "I think strategically and plan every step.",
-          "photo": "strategic_plan.jpg",
+          "text": "I calculate every variable and commit to a plan.",
           "properties": {
-            "riskTaking": 4,
-            "emotionalStability": 9,
-            "courage": 8
-          }
-        },
-        {
-          "text": "I act instinctively, trusting my gut.",
-          "photo": "instinct_action.jpg",
-          "properties": {
-            "riskTaking": 9,
+            "riskTaking": 3,
             "emotionalStability": 6,
-            "courage": 9
+            "courage": 5,
+            "logic_vs_emotion": 9
           }
         },
         {
-          "text": "I freeze or avoid taking responsibility.",
-          "photo": "freeze.jpg",
+          "text": "I trust my instincts and act immediately.",
           "properties": {
-            "riskTaking": 2,
-            "emotionalStability": 3,
-            "courage": 2
+            "riskTaking": 8,
+            "emotionalStability": -2,
+            "courage": 7,
+            "logic_vs_emotion": -6
+          }
+        },
+        {
+          "text": "I hesitate. The weight of the decision is too much.",
+          "properties": {
+            "riskTaking": 1,
+            "emotionalStability": -6,
+            "courage": 1,
+            "logic_vs_emotion": -3
           }
         }
       ]
     },
     {
       "id": 3,
-      "text": "You have the chance to lead a major mission. What is your main goal?",
+      "text": "You’re given control over a mission that will affect millions. What truly drives you?",
       "answers": [
         {
-          "text": "I want to be recognized as the best.",
-          "photo": "trophy.jpg",
+          "text": "Proving I’m the best.",
           "properties": {
-            "motivation": "Ambition",
-            "alignment": "Neutral"
+            "motivation": 8,
+            "alignment": -1,
+            "charisma": 3,
+            "guilt": 1
           }
         },
         {
-          "text": "I want to do what is right for others.",
-          "photo": "justice_scales.jpg",
+          "text": "Doing what’s right, even if I’m hated for it.",
           "properties": {
-            "motivation": "Justice",
-            "alignment": "Good"
+            "motivation": 9,
+            "alignment": 2,
+            "charisma": 1,
+            "guilt": -6
           }
         },
         {
-          "text": "I want personal gain and power.",
-          "photo": "money_bag.jpg",
+          "text": "Control. Outcomes matter more than ideals.",
           "properties": {
-            "motivation": "Power",
-            "alignment": "Evil"
+            "motivation": 10,
+            "alignment": -2,
+            "charisma": 2,
+            "guilt": 4
           }
         }
       ]
     },
     {
       "id": 4,
-      "text": "Someone challenges you directly in public. How do you respond?",
+      "text": "Someone publicly challenges you, knowing you can’t reveal the truth. How do you respond?",
       "answers": [
         {
-          "text": "I stay calm and assert control.",
-          "photo": "calm_control.jpg",
+          "text": "I stay calm and let events unfold.",
           "properties": {
-            "riskTaking": 6,
+            "riskTaking": 4,
+            "emotionalStability": 6,
+            "courage": 5,
+            "logic_vs_emotion": 7
+          }
+        },
+        {
+          "text": "I confront them directly and force resolution.",
+          "properties": {
+            "riskTaking": 8,
+            "emotionalStability": -3,
             "courage": 8,
-            "emotionalStability": 9
+            "logic_vs_emotion": -5
           }
         },
         {
-          "text": "I retaliate aggressively.",
-          "photo": "aggressive.jpg",
-          "properties": {
-            "riskTaking": 9,
-            "courage": 9,
-            "emotionalStability": 5
-          }
-        },
-        {
-          "text": "I avoid confrontation whenever possible.",
-          "photo": "walk_away.jpg",
+          "text": "I withdraw and avoid escalation.",
           "properties": {
             "riskTaking": 2,
-            "courage": 3,
-            "emotionalStability": 6
+            "emotionalStability": 1,
+            "courage": 2,
+            "logic_vs_emotion": 1
           }
         }
       ]
     },
     {
       "id": 5,
-      "text": "You have a secret identity. How do you interact with people in public?",
+      "text": "You live a double life. How do you interact with people close to you?",
       "answers": [
         {
-          "text": "I keep a careful facade.",
-          "photo": "disguise.jpg",
+          "text": "I keep a controlled facade at all times.",
           "properties": {
-            "alignment": "Neutral",
-            "moralFlexibility": 7,
-            "charisma": 8
+            "alignment": -1,
+            "moralFlexibility": 6,
+            "charisma": 4,
+            "guilt": -2
           }
         },
         {
-          "text": "I act normal, no one suspects.",
-          "photo": "blend_in.jpg",
+          "text": "I blend in and keep things compartmentalized.",
           "properties": {
-            "alignment": "Good",
-            "moralFlexibility": 3,
-            "charisma": 6
+            "alignment": 1,
+            "moralFlexibility": 4,
+            "charisma": 2,
+            "guilt": -4
           }
         },
         {
-          "text": "I don’t hide anything, I’m honest.",
-          "photo": "open_identity.jpg",
+          "text": "I’m honest, even if it risks everything.",
           "properties": {
-            "alignment": "Good",
-            "moralFlexibility": 2,
-            "charisma": 5
+            "alignment": 2,
+            "moralFlexibility": 1,
+            "charisma": 1,
+            "guilt": -8
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "To succeed, you must choose between personal happiness and completing the mission. What do you choose?",
+      "answers": [
+        {
+          "text": "The mission. Always.",
+          "properties": {
+            "motivation": 10,
+            "loyalty": 6,
+            "guilt": 4,
+            "logic_vs_emotion": 8
+          }
+        },
+        {
+          "text": "I try to balance both, even if it’s unstable.",
+          "properties": {
+            "motivation": 6,
+            "loyalty": 3,
+            "guilt": -2,
+            "logic_vs_emotion": 1
+          }
+        },
+        {
+          "text": "Personal happiness matters more.",
+          "properties": {
+            "motivation": 3,
+            "loyalty": -2,
+            "guilt": -6,
+            "logic_vs_emotion": -6
           }
         }
       ]
