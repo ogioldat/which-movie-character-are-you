@@ -2,6 +2,18 @@
   {
     "character_name": "Bruce Wayne",
     "movie": "The Dark Knight Trilogy",
+    "traits": {
+      "alignment": 8,
+      "moralFlexibility": -4,
+      "loyalty": 9,
+      "riskTaking": 8,
+      "emotionalStability": -3,
+      "courage": 10,
+      "motivation": 10,
+      "charisma": 7,
+      "guilt": 9,
+      "logic_vs_emotion": 4
+    },
     "narrative_description": [
       "He witnessed the murder of his parents, Thomas and Martha Wayne, as a child.",
       "He traveled the world as a criminal to understand the criminal mind.",
@@ -42,6 +54,18 @@
   {
     "character_name": "The Joker",
     "movie": "The Dark Knight",
+    "traits": {
+      "alignment": -10,
+      "moralFlexibility": 10,
+      "loyalty": -10,
+      "riskTaking": 10,
+      "emotionalStability": -8,
+      "courage": 9,
+      "motivation": 9,
+      "charisma": 9,
+      "guilt": -10,
+      "logic_vs_emotion": -5
+    },
     "narrative_description": [
       "He is a criminal mastermind with no clear origin or identity.",
       "He wears clown makeup and a purple suit to mock social norms.",
@@ -82,6 +106,18 @@
   {
     "character_name": "J. Robert Oppenheimer",
     "movie": "Oppenheimer",
+    "traits": {
+      "alignment": 2,
+      "moralFlexibility": 5,
+      "loyalty": 3,
+      "riskTaking": 7,
+      "emotionalStability": -6,
+      "courage": 6,
+      "motivation": 9,
+      "charisma": 8,
+      "guilt": 10,
+      "logic_vs_emotion": 2
+    },
     "narrative_description": [
       "He was a brilliant theoretical physicist who led the Manhattan Project.",
       "He oversaw the construction of Los Alamos and the development of the atomic bomb.",
@@ -122,6 +158,18 @@
   {
     "character_name": "Dom Cobb",
     "movie": "Inception",
+    "traits": {
+      "alignment": 3,
+      "moralFlexibility": 6,
+      "loyalty": 8,
+      "riskTaking": 9,
+      "emotionalStability": -7,
+      "courage": 8,
+      "motivation": 10,
+      "charisma": 6,
+      "guilt": 10,
+      "logic_vs_emotion": -4
+    },
     "narrative_description": [
       "He is a skilled extractor who steals secrets from people's dreams.",
       "He is a fugitive unable to return to the United States to see his children.",
@@ -162,6 +210,18 @@
   {
     "character_name": "Joseph Cooper",
     "movie": "Interstellar",
+    "traits": {
+      "alignment": 9,
+      "moralFlexibility": 0,
+      "loyalty": 9,
+      "riskTaking": 10,
+      "emotionalStability": 8,
+      "courage": 10,
+      "motivation": 9,
+      "charisma": 6,
+      "guilt": 7,
+      "logic_vs_emotion": 5
+    },
     "narrative_description": [
       "He is a former NASA pilot forced to become a farmer in a dying world.",
       "He discovers a gravitational anomaly in his daughter's bedroom.",
@@ -202,6 +262,18 @@
   {
     "character_name": "Leonard Shelby",
     "movie": "Memento",
+    "traits": {
+      "alignment": -2,
+      "moralFlexibility": 8,
+      "loyalty": -5,
+      "riskTaking": 5,
+      "emotionalStability": -6,
+      "courage": 6,
+      "motivation": 10,
+      "charisma": 2,
+      "guilt": -8,
+      "logic_vs_emotion": 9
+    },
     "narrative_description": [
       "He suffers from anterograde amnesia and cannot form new memories.",
       "He seeks revenge for the rape and murder of his wife.",
@@ -242,6 +314,18 @@
   {
     "character_name": "Bane",
     "movie": "The Dark Knight Rises",
+    "traits": {
+      "alignment": -9,
+      "moralFlexibility": -7,
+      "loyalty": 10,
+      "riskTaking": 8,
+      "emotionalStability": 9,
+      "courage": 10,
+      "motivation": 10,
+      "charisma": 8,
+      "guilt": -10,
+      "logic_vs_emotion": 7
+    },
     "narrative_description": [
       "He was born and raised in a brutal foreign prison known as The Pit.",
       "He was a member of the League of Shadows and protector of Talia al Ghul.",
@@ -280,8 +364,20 @@
     ]
   },
   {
-    "character_name": "Selina Kyle",
+    "character_name": "Selina Kyle (Catwoman)",
     "movie": "The Dark Knight Rises",
+    "traits": {
+      "alignment": 1,
+      "moralFlexibility": 8,
+      "loyalty": 2,
+      "riskTaking": 6,
+      "emotionalStability": 5,
+      "courage": 6,
+      "motivation": 7,
+      "charisma": 9,
+      "guilt": 4,
+      "logic_vs_emotion": 6
+    },
     "narrative_description": [
       "She is a master thief and grifter operating in Gotham City.",
       "She steals Bruce Wayne's fingerprints in exchange for a 'Clean Slate' program.",
@@ -322,6 +418,18 @@
   {
     "character_name": "Robert Angier",
     "movie": "The Prestige",
+    "traits": {
+      "alignment": -5,
+      "moralFlexibility": 9,
+      "loyalty": -3,
+      "riskTaking": 10,
+      "emotionalStability": -6,
+      "courage": 8,
+      "motivation": 10,
+      "charisma": 9,
+      "guilt": -4,
+      "logic_vs_emotion": -7
+    },
     "narrative_description": [
       "He is a stage magician known as 'The Great Danton'.",
       "He blames Alfred Borden for the death of his wife during a water tank trick.",
@@ -362,6 +470,18 @@
   {
     "character_name": "Neil",
     "movie": "Tenet",
+    "traits": {
+      "alignment": 9,
+      "moralFlexibility": 4,
+      "loyalty": 10,
+      "riskTaking": 8,
+      "emotionalStability": 10,
+      "courage": 10,
+      "motivation": 8,
+      "charisma": 8,
+      "guilt": 0,
+      "logic_vs_emotion": 8
+    },
     "narrative_description": [
       "He is a highly skilled operative and physicist working for Tenet.",
       "He saves the Protagonist's life at the Kiev opera house siege.",
@@ -402,6 +522,18 @@
   {
     "character_name": "Alfred Borden",
     "movie": "The Prestige",
+    "traits": {
+      "alignment": 3,
+      "moralFlexibility": 5,
+      "loyalty": 9,
+      "riskTaking": 8,
+      "emotionalStability": 4,
+      "courage": 7,
+      "motivation": 9,
+      "charisma": 3,
+      "guilt": 7,
+      "logic_vs_emotion": 6
+    },
     "narrative_description": [
       "He is a working-class magician dedicated to the pure craft of magic.",
       "He is actually identical twins living as a single person.",
@@ -442,6 +574,18 @@
   {
     "character_name": "Harvey Dent",
     "movie": "The Dark Knight",
+    "traits": {
+      "alignment": -6,
+      "moralFlexibility": 10,
+      "loyalty": -5,
+      "riskTaking": 9,
+      "emotionalStability": -9,
+      "courage": 5,
+      "motivation": 8,
+      "charisma": 6,
+      "guilt": -2,
+      "logic_vs_emotion": -9
+    },
     "narrative_description": [
       "He is the charismatic District Attorney of Gotham City.",
       "He is nicknamed 'Gotham's White Knight' for his clean record.",
@@ -482,6 +626,18 @@
   {
     "character_name": "Mal Cobb",
     "movie": "Inception",
+    "traits": {
+      "alignment": -4,
+      "moralFlexibility": 5,
+      "loyalty": 10,
+      "riskTaking": 9,
+      "emotionalStability": -10,
+      "courage": 6,
+      "motivation": 9,
+      "charisma": 7,
+      "guilt": -5,
+      "logic_vs_emotion": -10
+    },
     "narrative_description": [
       "She is the wife of Dom Cobb and a fellow dream architect.",
       "She spent 50 years in Limbo with Cobb, growing old together.",
@@ -522,6 +678,18 @@
   {
     "character_name": "Dr. Mann",
     "movie": "Interstellar",
+    "traits": {
+      "alignment": -7,
+      "moralFlexibility": 9,
+      "loyalty": -10,
+      "riskTaking": 7,
+      "emotionalStability": -8,
+      "courage": -8,
+      "motivation": 9,
+      "charisma": 7,
+      "guilt": 6,
+      "logic_vs_emotion": -6
+    },
     "narrative_description": [
       "He was the leader of the Lazarus missions, a celebrated scientist.",
       "He landed on an ice planet that was uninhabitable.",
@@ -562,6 +730,18 @@
   {
     "character_name": "Alfred Pennyworth",
     "movie": "The Dark Knight Trilogy",
+    "traits": {
+      "alignment": 10,
+      "moralFlexibility": 2,
+      "loyalty": 10,
+      "riskTaking": -3,
+      "emotionalStability": 9,
+      "courage": 8,
+      "motivation": 8,
+      "charisma": 6,
+      "guilt": 8,
+      "logic_vs_emotion": 3
+    },
     "narrative_description": [
       "He is the loyal butler to the Wayne family.",
       "He raised Bruce Wayne after his parents were murdered.",
