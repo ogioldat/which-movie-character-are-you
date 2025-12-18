@@ -5,7 +5,7 @@ from neo4j import GraphDatabase
 from quiz.CharacterEmbedding import CharacterEmbedding
 from quiz.graph import model, load_characters_for_embedding, add_characters_embeddings, create_character_embedding_index
 
-URI = "neo4j+s://f6e7bfa3.databases.neo4j.io"
+URI = "neo4j+ssc://f6e7bfa3.databases.neo4j.io"
 USERNAME = "neo4j"
 PASSWORD = "RUjFALUooPTwVOpGqyOcMzS-wwnV2y8Uq3wR6VdezM8"
 CHARACTER_DATA_PATH = Path("data/characters.json")

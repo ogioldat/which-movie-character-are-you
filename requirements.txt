@@ -1,1 +1,4 @@
 networkx
+neo4j
+FlagEmbedding
+streamlit

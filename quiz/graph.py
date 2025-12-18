@@ -2,7 +2,7 @@ from neo4j import GraphDatabase
 from quiz.CharacterEmbedding import CharacterEmbedding
 from FlagEmbedding import BGEM3FlagModel
 
-URI = "neo4j+s://f6e7bfa3.databases.neo4j.io"
+URI = "neo4j+ssc://f6e7bfa3.databases.neo4j.io"
 USERNAME = "neo4j"
 PASSWORD = "RUjFALUooPTwVOpGqyOcMzS-wwnV2y8Uq3wR6VdezM8"
 
@@ -22,6 +22,25 @@ GET_CHARACTERS_QUERY = """MATCH (c:Character)-[:APPEARS_IN]->(m:Movie)
       collect(DISTINCT n.description) AS narrative,
       collect(DISTINCT p.text) AS psychology,
       collect(DISTINCT d.text) AS dialogue
+"""
+
+CHARACTER_PROFILE_QUERY = """
+MATCH (c:Character {name: $name})-[:APPEARS_IN]->(m:Movie)
+OPTIONAL MATCH (c)-[:EXPERIENCES]->(n:NarrativeEvent)
+OPTIONAL MATCH (c)-[:EXPRESSES]->(p:PsychologicalStatement)
+OPTIONAL MATCH (c)-[:SAYS]->(d:DialogueLine)
+RETURN
+  c.name AS name,
+  m.title AS movie,
+  collect(DISTINCT n.description) AS narrative,
+  collect(DISTINCT p.text) AS psychology,
+  collect(DISTINCT d.text) AS dialogue
+"""
+
+CHARACTER_SUMMARY_QUERY = """
+MATCH (c:Character)-[:APPEARS_IN]->(m:Movie)
+RETURN DISTINCT c.name AS name, m.title AS movie
+ORDER BY c.name
 """
 
 
@@ -86,3 +105,23 @@ def calculate_cosine_similarity(num_best: int, user_embedding: list[float]):
     return best
 
 
+def get_character_profile(name: str):
+    """Return movie, narrative highlights, psychology and dialogue lines for the selected character."""
+    with driver.session() as session:
+        record = session.run(CHARACTER_PROFILE_QUERY, name=name).single()
+        if not record:
+            return None
+        return {
+            "name": record["name"],
+            "movie": record["movie"],
+            "narrative": [item for item in record["narrative"] if item],
+            "psychology": [item for item in record["psychology"] if item],
+            "dialogue": [item for item in record["dialogue"] if item],
+        }
+
+
+def get_character_summaries():
+    """Fetch lightweight character metadata for populating the landing page."""
+    with driver.session() as session:
+        result = session.run(CHARACTER_SUMMARY_QUERY)
+        return [{"name": r["name"], "movie": r["movie"]} for r in result]

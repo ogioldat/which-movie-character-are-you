@@ -5,7 +5,7 @@ from quiz.graph import model, calculate_cosine_similarity
 
 
 def load_questions():
-    with open("questions.json", "r", encoding="utf-8") as f:
+    with open("data/questions.json", "r", encoding="utf-8") as f:
         data = json.load(f)
     return data.get("questions", [])
 
